@@ -1,0 +1,32 @@
+#content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article h2 {
+    margin: 20px;
+    padding: 5px 5px;
+    background: #fe0000;
+    color: #fff;
+}
+
+article .meta {
+    margin: 0;
+    padding: 15px 10px;
+    margin: 20px;
+}
+
+.article {
+    background-color: rgb(215, 213, 213);
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+}
+
+
+
+

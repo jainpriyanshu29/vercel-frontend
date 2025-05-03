@@ -1,0 +1,427 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+:root
+{
+ --primary-color : rgb(0, 204, 255);
+}
+
+body
+{
+    scroll-behavior: smooth;
+}
+
+
+.container
+{
+  display: flex;
+  background-color: rgb(132, 131, 131);
+  position: sticky;
+  top: 0;
+}
+
+h1
+{
+    width: 40%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span
+{
+    color: var(--primary-color);
+}
+
+
+
+.nav
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul
+{
+    display: flex;
+}
+
+.nav ul li
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.nav ul li a:hover
+{
+    color: var(--primary-color);
+}
+
+
+.nav ul li .btn
+{
+    /* background-color: rgb(0, 204, 255); */
+    border: 2px solid var(--primary-color);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.nav ul li .btn:hover
+{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+.bg
+{
+    background-image: url('/src/image/img2.jpg');
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-title
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 149, 0);
+    text-shadow: 5px 10px 5px  black;
+}
+
+
+h3
+{
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* //////////////////////////// */
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+/* ////////////////////////// */
+
+
+
+
+
+
+
+/* about */
+
+img
+{
+    width: 100%;
+    height: 50vh;
+}
+
+.about-content
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    width: 40%;
+    text-align: justify;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.image
+{
+    width: 40%;
+}
+
+.about-image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* blog */
+
+img
+{
+    width: 100%;
+    height: 50vh;
+}
+
+.blogger
+{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.blog-content
+{
+    width: 30%;
+    text-align: justify;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.image
+{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blog-image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+
+.blogger-1
+{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.blogger-2
+{
+    width: 100%;
+    display: flex;
+    /* justify-content: right; */
+    align-items: center;
+
+}
+
+
+
+
+
+
+/* contact */
+
+.us
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    width: 40%;
+}
+.name
+{
+    padding: 10px;
+}
+
+input
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+h4
+{
+    padding: 50px;
+    font-size: 30px;
+}
+
+.button
+{
+    width: 30%;
+    padding: 10px;
+}
+
+.button-1
+{
+    /* background-color: black; */
+    border: 2px solid var(--primary-color);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.button-1:hover
+{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+/* footer */
+.footer
+{
+    background-color: var(--primary-color);
+}
+
+.footer-content
+{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+
+/* sign up */
+
+.us
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    width: 40%;
+}
+.name
+{
+    padding: 10px;
+}
+
+input
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+h4
+{
+    padding: 10px;
+    font-size: 50px;
+}
+
+.button
+{
+    width: 30%;
+    padding: 10px;
+}
+
+.button-1
+{
+    /* background-color: black; */
+    border: 2px solid var(--primary-color);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.button-1:hover
+{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.upload
+{
+    font-size: 20px;
+}
+
+
+
+/* login */
+.us
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    width: 40%;
+}
+.name
+{
+    padding: 10px;
+}
+
+input
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.button
+{
+    width: 30%;
+    padding: 10px;
+}
+
+.button-1
+{
+    /* background-color: black; */
+    border: 2px solid var(--primary-color);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: all 0.1s;
+}
+
+
+
+
+
+
+
+
+
+
