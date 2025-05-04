@@ -39,7 +39,7 @@ const Add = () => {
 
 
         try {
-            const res = await axios.post("http://localhost:8800/add", formData, config);
+            const res = await axios.post("https://vercel-blog-backend.onrender.com/add", formData, config);
             if (res.data.success) {
                 navigate("/userpanel")
                 // console.log(res.data);

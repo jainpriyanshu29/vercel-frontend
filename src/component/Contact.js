@@ -30,7 +30,7 @@ const Contact = () => {
             message: message
         }
 
-        const res = await axios.post("http://localhost:8800/contact", data).then((res) => {
+        const res = await axios.post("https://vercel-blog-backend.onrender.com/contact", data).then((res) => {
             alert(res.data.message);
             navigate("/")
         });

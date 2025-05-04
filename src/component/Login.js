@@ -40,7 +40,7 @@ const Login = () => {
             password: password
         }
 
-        const res = await axios.post("http://localhost:8800/login", obj);
+        const res = await axios.post("https://vercel-blog-backend.onrender.com/login", obj);
         if (res.data.success) {
             localStorage.setItem("token", res.data.token);
             navigate("/userpanel");
