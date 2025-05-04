@@ -38,7 +38,7 @@ const Signup = () => {
         formData.append("myfile", filename)
 
 
-        const res = await axios.post("https://vercel-blog-backend-rho.vercel.app/signup", formData).then((res) => {
+        const res = await axios.post("http://localhost:8800/signup", formData).then((res) => {
             alert(res.data.message);
             navigate("/login")
         });
