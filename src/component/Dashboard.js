@@ -21,7 +21,7 @@ const Dashboard = () => {
 
   const Fetechdata = async () => {
     try {
-      const mydata = await axios.get("http://localhost:8800/getdata", config);
+      const mydata = await axios.get("https://vercel-blog-backend.onrender.com/getdata", config);
       if (mydata.data.success) {
         setblogs(mydata.data.data);
         console.log(mydata.data.data);
