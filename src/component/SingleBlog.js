@@ -23,7 +23,7 @@ const SingleBlog = () => {
   }, [id])
 
   const GetSinglePost = async () => {
-    const Singledta = await axios.get(`http://localhost:8800/blog/${id}`, config);
+    const Singledta = await axios.get(`https://vercel-blog-backend.onrender.com/blog/${id}`, config);
     if (Singledta.data.success) {
       setPostdata(Singledta.data.data);
       console.log(Singledta.data.data);
